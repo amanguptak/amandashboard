@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* @media only screen and (min-width: 480px) {
+
+    .alldata {
+        width: 400px;
+        height: 100%;
+        background-color: red;
+        }
+   
+    .head th {
+    
+        padding: 0px;
+
+        font-size: 8px;
+        width: 400px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .detail {
+        width: 400px;
+        color: white;
+        border-top-left-radius: 25px;
+        background-color: #271C1C;
+    }
+
+    .calender{
+        font-size: 10px;
+        width: 400px;
+    }
+  } */
+.calender{
+
+    margin: 0px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.calender label{
+    font-size:10px;
+    margin-left: 5px;
+}
+.calender span{
+    font-size:12px;
+}
+.calender input{
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.calender button{
+    color: white;
+    padding: 9px;
+    border-radius: 5px;
+    background-color: #2468e5;
+    border: none;
+    margin-left: 10px;
+}
+
+.alldata {
+color: white;
+
+    margin: 20px;
+    padding: 40px;
+    font-family: 'Poppins', sans-serif;
+
+ background-color: #283046;
+
+}
+
+.header {
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+
+    flex-direction: column;
+
+}
+
+
+
+
+
+
+.head {
+
+    border-collapse: collapse;
+
+    
+
+}
+.head td{
+    text-align: center;
+}
+
+.head td,
+.head th {
+
+    padding: 8px;
+    border-bottom: 0.2px solid rgb(237, 236, 236);
+    font-size: 14px;
+    width: 900px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.detail {
+    color: white;
+    border-top-left-radius: 25px;
+    background-color: #271C1C;
+}
+
+.detail th {
+    padding: 16px;
+}
+
+
+
+.orderid {
+    font-weight: bold;
+}
+.orderid li{
+    list-style: none;
+    
+}
+.orderid i{
+    margin-right: 5px;
+}
